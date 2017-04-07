@@ -86,7 +86,7 @@ public class Encoder
             queue = new MinPriorityQueue();
             max = 1;
         }
-        else if(dataStructureType == DataStructureType.CACHE_OPTIMIZED_4WAY_BINARYHEAP)
+        else if(dataStructureType == DataStructureType.CACHE_OPTIMIZED_4WAY_HEAP)
         {
             queue = new CacheOptimized4WayPriorityQueue();
             max = 4;
